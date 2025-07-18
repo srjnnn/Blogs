@@ -33,7 +33,7 @@ https://blog.srijankharel.com.np
 
 ---
 ## 🤝 Connect with Me
-📧 Email: srijankharel@gmail.com
+📧 Email: mrsrjn224@gmail.com
 🌐 Website: www.srijankharel.com.np
 💼 GitHub: @srjnnn
 
