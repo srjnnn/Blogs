@@ -60,6 +60,7 @@ const Navbar = () => {
         onMouseLeave={() => setHover(false)}
       >
         HIRE US
+        {/* extra space  */}
       </button>
     </nav>
   );
