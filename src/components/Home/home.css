@@ -1,0 +1,140 @@
+.carousel-container {
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.red {
+  color: crimson;
+}
+.blue {
+  color: #2b6cb0;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.slide {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.slide.active {
+  opacity: 1;
+  transform: translateX(0);
+  position: relative;
+}
+
+.card-hover {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  max-height: 350px;
+}
+
+.card-hover img {
+  width: 100%;
+  display: block;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.card-hover:hover img {
+  transform: scale(1.05);
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 1rem;
+}
+
+.card-hover:hover .hover-overlay {
+  opacity: 1;
+}
+
+.see-more {
+  text-decoration: none;
+  background-color: crimson;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.see-more:hover {
+  background-color: darkred;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+.buttons a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #5a67d8;
+}
+
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #444;
+  z-index: 1;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+.buttons a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: #000;
+}
+
+.buttons a img.icon {
+  width: 16px;
+  height: 16px;
+}
