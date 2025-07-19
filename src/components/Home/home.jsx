@@ -4,11 +4,12 @@ import './home.css';
 import exportIcon from '../../assets/icons/export.png';
 import Navbar from '../navBar/navBar';
 import phishnet from "../../assets/phishnet.png";
-import bloodIcon from "../../assets/blood4u.jpg"
+import bloodIcon from "../../assets/blood4u.jpg";
+import amityIcon from "../../assets/amity.png"
 export default function Home() {
   const slides = [
     {
-      slug: 'phishnet-nepal',
+      slug: 'phishnet',
       title: 'PhishNet-Nepal',
       description:
         'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in classical Latin literature.',
@@ -24,6 +25,15 @@ export default function Home() {
       img: bloodIcon,
       github: 'https://github.com/srjnnn/Blood4Life',
       live: 'https://blood4life.live',
+    },
+        {
+      slug: 'amity-app',
+      title: 'Amity App',
+      description:
+        'A school management application developed by high school students, now being used by 300+ students and teachers',
+      img: amityIcon,
+      github: 'https://github.com/srjnnn/School-Management',
+      live: 'https://amity.kharaayo.com',
     },
   ];
 
@@ -59,7 +69,7 @@ export default function Home() {
               <div className="card-hover">
                 <img src={slide.img} alt={slide.title} />
                 <div className="hover-overlay">
-                  <Link to={`/project/${slide.slug}`} className="see-more">See More</Link>
+                  <Link to={`/projects/${slide.slug}`} className="see-more">See More</Link>
                 </div>
               </div>
 
