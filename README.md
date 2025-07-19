@@ -6,7 +6,7 @@ Welcome to **Srijan's Blog Site**, a sleek, fast, and responsive platform where 
 
 ## 🌐 Live Demo
 
-https://blog.srijankharel.com.np  
+https://blogs.srijankharel.com.np  
 
 ---
 
