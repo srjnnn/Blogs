@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './home.css';
 import exportIcon from '../../assets/icons/export.png';
+import Navbar from '../navBar/navBar';
 
 
 export default function Home() {
@@ -45,7 +46,7 @@ export default function Home() {
 
   return (
     <>
-      
+        <Navbar />,
       <div className="carousel-container">
         <h2>
           <span className="red">Our Recent</span>{' '}

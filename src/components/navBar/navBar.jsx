@@ -5,6 +5,9 @@ const styles = {
     backgroundColor: "white",
     display: "flex",
     justifyContent: "space-between",
+    flexShrink: 0,
+    maxWidth: "1200px",
+    width:"1100px",
     alignItems: "center",
     boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
   },
@@ -16,7 +19,6 @@ const styles = {
   logo: {
     width: "40px",
     height: "40px",
-    border: "2px solid #2563EB", 
     padding: "4px",
   },
   title: {
