@@ -4,7 +4,8 @@ import './home.css';
 import exportIcon from '../../assets/icons/export.png';
 import Navbar from '../navBar/navBar';
 import phishnet from "../../assets/phishnet.png";
-import bloodIcon from "../../assets/blood4u.jpg"
+import bloodIcon from "../../assets/blood4u.jpg";
+import amityIcon from "../../assets/amity.png"
 export default function Home() {
   const slides = [
     {
@@ -24,6 +25,15 @@ export default function Home() {
       img: bloodIcon,
       github: 'https://github.com/srjnnn/Blood4Life',
       live: 'https://blood4life.live',
+    },
+        {
+      slug: 'amity-app',
+      title: 'Amity App',
+      description:
+        'A school management application developed by high school students, now being used by 300+ students and teachers',
+      img: amityIcon,
+      github: 'https://github.com/srjnnn/School-Management',
+      live: 'https://amity.kharaayo.com',
     },
   ];
 
