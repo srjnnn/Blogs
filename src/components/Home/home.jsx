@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from '../navBar/navBar'; 
 import './home.css';
 import exportIcon from '../../assets/icons/export.png';
 
@@ -46,7 +45,6 @@ export default function Home() {
 
   return (
     <>
-      {/* <Navbar />  */}
       
       <div className="carousel-container">
         <h2>

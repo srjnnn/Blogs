@@ -3,7 +3,6 @@ import React from "react";
 const styles = {
   nav: {
     backgroundColor: "white",
-    padding: "12px 24px",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
