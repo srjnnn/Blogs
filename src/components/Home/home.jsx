@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import './home.css';
 import exportIcon from '../../assets/icons/export.png';
 import Navbar from '../navBar/navBar';
-
-
+import phishnet from "../../assets/phishnet.png";
+import bloodIcon from "../../assets/blood4u.jpg"
 export default function Home() {
   const slides = [
     {
@@ -12,17 +12,17 @@ export default function Home() {
       title: 'PhishNet-Nepal',
       description:
         'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in classical Latin literature.',
-      img: '../src/assets/phishnet.png',
-      github: 'https://github.com/example/phishnet',
-      live: 'https://phishnet.live',
+      img: phishnet,
+      github: 'https://github.com/srjnnn/PhishNet-Nepal',
+      live: 'https://www.phishnet.srijankharel.com.np/',
     },
     {
       slug: 'blood4life',
       title: 'Blood4Life',
       description:
         'How Blood4Life is Saving Lives by building a strong donor base in communities.',
-      img: '../src/assets/blood4u.jpg',
-      github: 'https://github.com/example/blood4life',
+      img: bloodIcon,
+      github: 'https://github.com/srjnnn/Blood4Life',
       live: 'https://blood4life.live',
     },
   ];

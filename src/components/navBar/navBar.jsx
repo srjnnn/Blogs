@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "../../assets/logo.png"
 const styles = {
   nav: {
     backgroundColor: "white",
@@ -45,7 +45,7 @@ const Navbar = () => {
     <nav style={styles.nav}>
       <div style={styles.leftSection}>
         <img
-          src="../src/assets/logo.png"
+          src={logo}
           alt="NepDev Logo"
           style={styles.logo}
         />
