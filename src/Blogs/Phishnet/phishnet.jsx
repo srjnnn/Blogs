@@ -1,13 +1,11 @@
 import { Link } from 'react-router-dom';
 import './phishnet.css'; 
 import React from 'react';
-// import phish1 from './assets/phish1.png';
 import phish1 from "../../assets/projects/phishnet/phish1.png" 
 import phish2 from "../../assets/projects/phishnet/phish2.png" 
 import phish3 from "../../assets/projects/phishnet/phish3.png" 
 import phish4 from "../../assets/projects/phishnet/phish4.png" 
 import phish5 from "../../assets/projects/phishnet/phish5.png" 
-// import phish2 from './assets/phish2.png';
 
 function Phishnet() {
   return (

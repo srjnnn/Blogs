@@ -1,0 +1,102 @@
+.amity-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #f9f9fb;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.amity-hero {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.amity-hero h2 {
+  font-size: 2.2rem;
+  color: #4c63b6;
+}
+
+.amity-hero p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.home-button {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #4c63b6;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.home-button:hover {
+  background: #3b4f97;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #4c63b6;
+  padding-left: 0.75rem;
+}
+
+.screenshot-gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.screenshot-gallery img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.amity-features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.amity-features li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.amity-features li::before {
+  content: "✔️";
+  position: absolute;
+  left: 0;
+}
+
+.review {
+  background-color: #fff;
+  padding: 1rem;
+  border-left: 4px solid #4c63b6;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.review em {
+  color: #4c63b6;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .screenshot-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+}
