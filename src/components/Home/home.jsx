@@ -8,7 +8,7 @@ import bloodIcon from "../../assets/blood4u.jpg"
 export default function Home() {
   const slides = [
     {
-      slug: 'phishnet-nepal',
+      slug: 'phishnet',
       title: 'PhishNet-Nepal',
       description:
         'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in classical Latin literature.',
@@ -59,7 +59,7 @@ export default function Home() {
               <div className="card-hover">
                 <img src={slide.img} alt={slide.title} />
                 <div className="hover-overlay">
-                  <Link to={`/project/${slide.slug}`} className="see-more">See More</Link>
+                  <Link to={`/projects/${slide.slug}`} className="see-more">See More</Link>
                 </div>
               </div>
 
