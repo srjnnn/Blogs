@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./blood4life.css";
+import "../Blood4Life/blood4life.css";
 
 const Blood4life = () => (
   <div className="blood4life-container">
