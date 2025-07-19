@@ -2,15 +2,13 @@ import { Link } from 'react-router-dom';
 
 const styles = {
   container: {
-    minHeight: '100vh',
+    minHeight: '100%',
+    width : "100%",
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    background:
-      'linear-gradient(135deg, #6B73FF 0%, #000DFF 100%)',
-    color: 'white',
-    padding: '2rem',
+    color: 'black',
     textAlign: 'center',
     fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
   },
