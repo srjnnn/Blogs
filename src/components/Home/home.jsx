@@ -12,7 +12,7 @@ export default function Home() {
       slug: 'phishnet',
       title: 'PhishNet-Nepal',
       description:
-        'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in classical Latin literature.',
+        'How PhishNet Helps You Spot and Stop Phishing Attack',
       img: phishnet,
       github: 'https://github.com/srjnnn/PhishNet-Nepal',
       live: 'https://www.phishnet.srijankharel.com.np/',
