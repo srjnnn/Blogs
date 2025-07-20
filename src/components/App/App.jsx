@@ -9,6 +9,7 @@ import Phishnet from '../../Blogs/Phishnet/phishnet';
 import AmityApp from '../../Blogs/Amity-App/amityApp';
 import VolMatching from '../../Blogs/VolMatching/volMatching';
 import Blood4life from '../../Blogs/Blood4Life/blood4life';
+import PhishnetFeedbacks from '../../Blogs/Phishnet/phishnetFeedbacks';
 function App() {
   return (
     <Routes>
@@ -19,6 +20,7 @@ function App() {
       <Route path="/projects/amity-app" element={<AmityApp />} />
       <Route path="/projects/volmatching" element={<VolMatching />} />
       <Route path="/projects/blood4life" element={<Blood4life />} />
+      <Route path="projects/phishnet/feedbacks" element={<PhishnetFeedbacks />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

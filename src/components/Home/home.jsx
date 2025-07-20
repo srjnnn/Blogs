@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './home.css';
 import exportIcon from '../../assets/icons/export.png';
 import Navbar from '../navBar/navBar';
-import phishnet from "../../assets/phishnet.png";
+import phishnet from "../../assets/phishnet.jpg";
 import bloodIcon from "../../assets/blood4u.jpg";
 import amityIcon from "../../assets/amity.png"
 export default function Home() {
