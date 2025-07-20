@@ -4,14 +4,17 @@
   box-sizing: border-box;
 }
 
-.phishnet-container {
-  font-family: 'Segoe UI', sans-serif;
+body {
   background-color: #f5f7fa;
+  font-family: 'Segoe UI', sans-serif;
   color: #333;
+}
+
+.phishnet-container {
   padding: 2rem;
-  line-height: 1.6;
   max-width: 1000px;
   margin: auto;
+  line-height: 1.6;
 }
 
 .hero {
@@ -28,21 +31,32 @@
 .hero p {
   font-size: 1.1rem;
   color: #555;
+  max-width: 700px;
+  margin: auto;
 }
 
-.home-button {
+.nav-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.feedback-button {
+  background-color: #007bff;
   display: inline-block;
   margin-top: 1rem;
   padding: 0.6rem 1.2rem;
-  background-color: #007bff;
   color: white;
   text-decoration: none;
-  border-radius: 8px;
-  font-weight: 500;
+  border-radius: 0.5rem;
+  font-weight: bold;
   transition: background 0.3s ease;
 }
 
-.home-button:hover {
+.home-button:hover,
+.feedback-button:hover {
   background-color: #0056b3;
 }
 
@@ -70,13 +84,15 @@ section h2 {
   max-width: 300px;
   border-radius: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .screenshot-gallery img:hover {
   transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
+/* Features */
 .features ul {
   list-style: none;
   padding-left: 0;
@@ -85,7 +101,9 @@ section h2 {
 .features li {
   margin-bottom: 0.6rem;
   position: relative;
-  padding-left: 1.5rem;
+  padding-left: 1.8rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .features li::before {
@@ -95,9 +113,12 @@ section h2 {
   top: 0;
 }
 
-/* Reviews section */
+.tech-stack p {
+  margin-bottom: 0.5rem;
+}
+
 .review {
-  background: white;
+  background: #ffffff;
   padding: 1rem 1.2rem;
   border-left: 4px solid #007bff;
   border-radius: 0.5rem;
@@ -115,11 +136,33 @@ section h2 {
   font-weight: bold;
   color: #007bff;
 }
+.conclusion {
+  margin-top: 3rem;
+  padding: 1.5rem 1rem;
+  background-color: #e9f2ff;
+  border-left: 6px solid #007bff; 
+  border-radius: 8px;
+  color: #034a9f; 
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.conclusion h2 {
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  color: #0056b3;
+}
+
 
 /* Responsive */
 @media screen and (max-width: 768px) {
   .hero h1 {
     font-size: 2rem;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
   }
 
   .screenshot-gallery {
